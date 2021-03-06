@@ -1,0 +1,129 @@
+/* Estrutura do site*/
+body{
+	background-color: #d3d3d3;
+}
+#cabecalho{
+	margin-top: -10px;
+	margin-right: -50px;
+	width: 100%;
+	box-shadow: 0px 0px 10px rgba(50%,50%,50%,0.5);
+}
+#cabecalho img#logo{
+	width: 60px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	position: relative;
+	left: 20%;
+}
+#cabecalho h1{
+	color: #353839;
+	left: 30%;
+	top: 10px;
+	position: absolute;
+	font-family: Bahnschrift;
+	text-shadow: 1px 1px 2px rgba(0,0,0,.4);
+}
+#col1 {
+	 text-align: center;
+	 width: 450px; 
+	 float: left;  
+	 box-shadow: 0px 0px 5px rgba(50%,50%,50%,0.5);
+}
+#col2 { 
+	text-align: center;
+	width: 450px; 
+	float: left;  
+	box-shadow: 0px 0px 5px rgba(50%,50%,50%,0.5);
+}
+#col3 { 
+	text-align: center;
+	width: 434px; 
+	float: left; 
+	margin-right: -20px; 
+	box-shadow: 0px 0px 5px rgba(50%,50%,50%,0.5);
+}
+footer#rodape{
+	clear: both;
+	box-shadow: 0px 0px 5px rgba(50%,50%,50%,0.5);
+}
+footer#rodape p{
+	text-align: center;
+	color: #353839;
+	font-family: Bahnschrift;
+	font-size: 20px;
+}
+/*Fim da Estrutura do site*/
+#titulo{
+	color: #353839;
+	font-family: Bahnschrift;
+	text-shadow: 1px 1px 2px rgba(0,0,0,.4);
+}
+#sub{
+	color: #353839;
+	font-family: Bahnschrift;
+	text-shadow: 1px 1px 2px rgba(0,0,0,.4);
+}
+figure.imagem1 img{
+	width: 300px;
+	position: relative;
+	box-shadow: 1px 1px 7px rgba(50%,50%,50%,0.5);
+}
+figure.imagem1 figcaption{
+	color: #353839;
+	font-family: Bahnschrift;
+	opacity: 0;
+	top: 0px;
+	padding: 3px;
+	box-sizing: border-box;
+	transition: opacity 1s;
+}
+figure.imagem1:hover figcaption{
+	opacity: 1;
+}
+
+figure.imagem2 img{
+	width: 300px;
+	box-shadow: 2px 2px 7px rgba(50%,50%,50%,0.5);
+	overflow: hidden;
+	text-align: center;
+	transition: 1s;
+}
+figure.imagem2:hover img{
+	transform: scale(1.5,1.5);
+}
+figure.imagem2 figcaption{
+	color: #353839;
+	font-family: Bahnschrift;
+	top: 0px;
+	padding: 3px;
+	box-sizing: border-box;
+}
+figure.imagem3 img{
+	width: 300px;
+	position: relative;
+	opacity: 0;
+	transition: opacity 1s;
+}
+figure.imagem3:hover img{
+	opacity: 1;
+}
+figure.imagem3 figcaption{
+	color: #353839;
+	font-family: Bahnschrift;
+	top: 0px;
+	padding: 3px;
+	box-sizing: border-box;
+}
+figure.codigo img{
+	width: 300px;
+	height: 300px;
+	box-shadow: 2px 2px 10px rgba(50%,50%,50%,0.5);
+
+}
+figure.codigo figcaption{
+	color: #353839;
+	font-family: Bahnschrift;
+	top: 0px;
+	padding: 3px;
+	box-sizing: border-box;
+}
